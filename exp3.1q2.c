@@ -25,7 +25,7 @@ int main() {
     else if (bmi >= 18.6 && bmi <= 24.9) {
         printf("Category: Ideal\n");
     }
-    else if (bmi >= 25 && bmi <= 25.9) {
+    else if (bmi >= 25 && bmi <= 29.9) {
         printf("Category: Overweight\n");
     }
     else if (bmi >= 30 && bmi <= 39.9) {
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
